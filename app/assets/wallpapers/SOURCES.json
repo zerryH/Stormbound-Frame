@@ -1,14 +1,5 @@
 [
   {
-    "id": "stormbound",
-    "name": "Stormbound Alpine Peaks",
-    "src": "assets/wallpapers/stormbound.jpg",
-    "thumb": "assets/wallpapers/stormbound-thumb.jpg",
-    "tone": "dark",
-    "pos": "50% 50%",
-    "credit": "Owner-supplied image"
-  },
-  {
     "id": "misty",
     "name": "Misty coast",
     "src": "assets/wallpapers/misty.jpg",

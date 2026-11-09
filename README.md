@@ -1,10 +1,10 @@
 # Stormbound Frame
 
-A private customization of [CleanFrame](https://github.com/nthnclrk/CleanFrame) for Samsung The Frame. This snapshot contains the 0.7.6 TV UI with the owner-supplied Stormbound Alpine Peaks wallpaper, the Netflix, YouTube, Spotify and Disney+ dock, and the animated Down panel for HDMI, Home preferences, Samsung settings and weather.
+A customization of [CleanFrame](https://github.com/nthnclrk/CleanFrame) for Samsung The Frame. This snapshot contains the 0.7.6 TV UI with the Forest mist wallpaper, the Netflix, YouTube, Spotify and Disney+ dock, and the animated Down panel for HDMI, Home preferences, Samsung settings and weather.
 
 ## Preview and package
 
-Use Python 3.10 or newer and a supported Node.js release. From this directory, run `npm ci`, then `npm run dev:public`. Open http://localhost:4795/home/ and use the arrow keys, Enter and Escape. Hardware actions require the TV. Run `npm run check` for source validation and `npm run export:public` for an unsigned widget with redistributable fonts. The export includes the owner-supplied wallpaper, so keep it private unless you have redistribution rights.
+Use Python 3.10 or newer and a supported Node.js release. From this directory, run `npm ci`, then `npm run dev:public`. Open http://localhost:4795/home/ and use the arrow keys, Enter and Escape. Hardware actions require the TV. Run `npm run check` for source validation and `npm run export:public` for an unsigned widget with redistributable fonts.
 
 See [development and signing](docs/development.md) before installing. Keep the author certificate and package identity from your previous installation when updating an existing copy.
 

@@ -1,21 +1,6 @@
 /* Bundled gallery and offline appearance parameters. */
 window.CleanFrameWallpapers = [
   {
-    "id": "stormbound",
-    "name": "Stormbound Alpine Peaks",
-    "src": "assets/wallpapers/stormbound.jpg",
-    "thumb": "assets/wallpapers/stormbound-thumb.jpg",
-    "tone": "dark",
-    "ut": {
-      "tr": "dark",
-      "br": "dark"
-    },
-    "frostVeil": 0.16,
-    "listColumn": 0,
-    "dockQuiet": false,
-    "clockMist": false
-  },
-  {
     "id": "misty",
     "name": "Misty coast",
     "src": "assets/wallpapers/misty.jpg",

@@ -352,7 +352,7 @@
       bg: pick(modern.bg, LOOK_VALUES.bg, legacyList ? 'dark' : 'photo'), layout: pick(modern.layout, LOOK_VALUES.layout, legacyList ? 'list' : 'dock'),
       apps: pick(modern.apps, LOOK_VALUES.apps, legacyList ? 'text' : 'both'), controls: pick(modern.controls, LOOK_VALUES.controls, 'icons'),
       focus: pick(modern.focus, LOOK_VALUES.focus, legacyList ? 'type' : 'glass'), material: pick(modern.material, LOOK_VALUES.material, 'frost'),
-      font: pick(modern.font, LOOK_VALUES.font, 'manrope'), wall: wall(modern.wall || s.wallpaper) ? modern.wall || s.wallpaper : 'stormbound',
+      font: pick(modern.font, LOOK_VALUES.font, 'manrope'), wall: wall(modern.wall || s.wallpaper) ? modern.wall || s.wallpaper : 'forest',
       home: h, recent: recent, lastApp: h.indexOf(lastApp) >= 0 ? lastApp : h[0],
       mode: pick(s.mode, MODES.map(function (m) { return m.id; }), 'fixed')
     };
@@ -375,7 +375,7 @@
     S.sel = S.c.lastApp; S.selIdx = S.c.home.indexOf(S.sel);
     if (!saved || saved.version !== 3) {
       initial.bg = 'photo';
-      initial.wall = 'stormbound';
+      initial.wall = 'forest';
       initial.mode = 'fixed';
     } else if (initial.mode === 'open') initial.wall = WALLS[(wallIndex(initial.wall) + 1) % WALLS.length].id;
     S.c = initial;
